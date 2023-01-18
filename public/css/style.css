@@ -1,0 +1,79 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+    .color-orange, .page-item .page-link {
+        color: blue !important;
+    }
+
+    .page-item.active .page-link {
+        color: white !important;
+        background: blue !important;
+        border: none;
+    }
+
+    .shadow-md {
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    }
+
+    .shadow-rounded {
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 15px;
+    }
+
+    .sidebar-menu li {
+        font-size: 1.2rem;
+    }
+
+    .kotak-menu li {
+        flex-basis: 30%;
+        color: white;
+    }
+
+    .kotak-menu li .angka {
+        display: block;
+        line-height: 1.15;
+        font-size: 5rem;
+        font-weight: bold;
+        text-align: right;
+        padding: 0 1rem;
+    }
+
+    .kotak-menu li .deskripsi {
+        font-size: 1.25rem;
+    }
+
+    .kotak-menu li:nth-child(1) {
+        background: orangered;
+    }
+
+    .kotak-menu li:nth-child(2) {
+        background: green;
+    }
+
+    .kotak-menu li:nth-child(3) {
+        background: blue;
+    }
+
+    .form-custom {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 29px;
+        background: #FFFFFF;
+        box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.15);
+        border-radius: 25px;
+    }
+
+    .icon-navbar:hover {
+        background-color: #dbf1ff;
+    }
+
+    .li-sidebar:hover {
+        background-color: #dbf1ff;
+    }
+
+    .icon-tambah:hover {
+        background-color: #b3fcca;
+    }
